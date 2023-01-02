@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Abstract
+namespace Core.DataAccess.EntityFramework
 {
-
-    //If any class Implements IEntity that class is Database Table.
-    public interface IEntity
+    internal class EfEntityRepositoryBase
     {
     }
 }
